@@ -35,9 +35,16 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@cds/core/global.min.css",
+    "node_modules/@cds/core/styles/theme.dark.min.css",
+    "node_modules/@clr/ui/clr-ui.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js",
+              "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js",
+              "node_modules/@clr/icons/clr-icons.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,12 +101,20 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/@cds/core/global.min.css",
+              "node_modules/@cds/core/styles/theme.dark.min.css",
+              "node_modules/@clr/ui/clr-ui.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [ "node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js",
+            "node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js",
+            "node_modules/@clr/icons/clr-icons.min.js"]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "2aedf08a-e729-499c-8412-93827bbd3015"
   }
 }
